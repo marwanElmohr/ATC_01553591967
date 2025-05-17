@@ -49,3 +49,10 @@ A full-stack event booking web application built using **React**, **TypeScript**
 3. Run the development server:
     ```bash
     node index.js
+
+
+## For testing
+
+On your browser, open https://localhost:3000.
+For user access, register then view events, view details of a certain event, and book it.
+For admin access, register then change the role in the mongo eventbooking database from the users' document to admin for the registered user. Log in with the admin credentials for admin access: events and a dashboard that contains read, update, create, and delete operations for events, and changing users' access from user to admin and vice versa.
